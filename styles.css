@@ -1,0 +1,15 @@
+.reveal .slides section {
+  max-height: 100vh;
+  overflow-y: auto;
+  font-size: 90%;
+}
+
+/* Make Python code blocks larger */
+.reveal pre code {
+  font-size: 1.5em;
+}
+
+/* Make Pyodide editors taller */
+.reveal .pyodide-python {
+  min-height: 250px;
+}
